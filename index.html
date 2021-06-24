@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Envio de email</title>
+</head>
+<body>
+    <div class=content>
+        <div class="card-form">
+            <form action="email.php" method="POST">
+                <h1>Envio de email com PHPmailer</h1>
+                <label for="">Email:</label>
+                <input type="email" class="field"name="email" placeholder="Digite seu email";>
+                <label for="">Senha:</label>
+                <input type="password"  class="field" name='senha' placeholder="Digite sua senha">
+                <label for="">Enviar para:</label>
+                <input type="email"  class="field" name="enviarPara" placeholder="Quem vai receber o email">
+                <textarea name="assunto"   cols="85" rows="10"></textarea>
+                <input type="submit" value="enviar" id='enviar'>
+
+            </form>
+        </div>
+    </div>
+    <script src="contents.html"></script>
+</body>
+</html>
